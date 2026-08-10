@@ -1,0 +1,19 @@
+git init
+
+git remote add origin “link”
+
+git config —global user.name “nome do github”
+
+git config —global user.email “***email.com”
+
+git branch -M main
+
+git pull origin main
+
+git add .
+
+git commit -m "nomeação do arquivo, e texto de descrição"
+
+git push --set-upstream origin main //primeira vez adicionando no github
+
+git push //normal
